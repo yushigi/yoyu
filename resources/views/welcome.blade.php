@@ -81,10 +81,13 @@
                 </div>
                 
                 <div class="links">
-                    <a href="https://laravel.com/docs">yushi</a>
-                    <a href="https://laracasts.com">yo</a>
-                    <a href="https://laravel-news.com">news</a>
-                    <a href="https://forge.laravel.com">contact</a>
+                    
+                    {!! link_to_route('yushikawaii', 'yushi', null, ['class' => 'btn btn-success ']) !!}
+                    {!! link_to_route('yoyo', 'yo', null, ['class' => 'btn btn-primary ' ]) !!}
+                    {!! link_to_route('news', 'news', null, ['class' => 'btn btn-danger ' ]) !!}
+                    {!! link_to_route('contact', 'contact', null, ['class' => 'btn btn-warning ' ]) !!}
+                    
+                
         
                 </div>
                 
